@@ -1,0 +1,30 @@
+# Core numerical and data-processing dependencies
+numpy==2.5.2
+pandas==3.0.5
+tqdm==4.70.0
+
+# PDF extraction
+PyMuPDF
+
+# Embedding model and Hugging Face stack
+sentence-transformers==5.7.0
+transformers==5.15.0
+accelerate==1.14.0
+peft==0.20.0
+
+# Notebook environment
+jupyter
+ipywidgets
+
+# PyTorch
+#
+# The completed GPU training experiment used:
+#   torch 2.13.0+cu130
+#   CUDA build 13.0
+#
+# PyTorch installation is platform/CUDA-specific, so it is intentionally
+# not pinned here. Install the appropriate CUDA-enabled build separately
+# before running the GPU fine-tuning notebook.
+#
+# See the official PyTorch installation selector:
+# https://pytorch.org/get-started/locally/
