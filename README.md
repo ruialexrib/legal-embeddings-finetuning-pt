@@ -94,8 +94,8 @@ legal-embeddings-finetuning-pt/
 │   ├── 05_hard_negative_mining.ipynb
 │   ├── 06_finetuning_lora.ipynb
 │   └── 07_final_evaluation.ipynb
-├── models/                  # Local adapters/checkpoints
-├── results/                 # Training and evaluation results
+├── models/                  # Local adapters/checkpoints (gitignored)
+├── results/                 # Generated training/evaluation outputs (gitignored)
 ├── requirements.txt
 ├── LICENSE
 └── README.md
